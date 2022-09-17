@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+main{
+display: inline-block;
+margin-top: 2%;
+padding: 15px;
+position: relative;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    min-height: 100vh;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+    
+}
+
+
+.pokemon-imagem{
+    position: absolute;
+    left: 50%;
+    bottom: 55%;
+    height: 18%;
+    transform: translate(-65%, 20%);
+    
+}
+
+.pokemon-data{
+    position: absolute;
+    font-weight: 600;
+    color: rgba(12, 12, 12, 0.667);
+    top: 55%;
+    right: 26%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon-nome{
+    color: black;
+    text-transform: capitalize;
+}
+
+.form{
+    position: absolute;
+    bottom: 28%;
+    left: 13.5%;
+    width: 65%;
+   
+}
+
+.input-search{
+    padding: 4%;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+    border: 2px solid;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: bold;
+    box-shadow: -3px 1px 1.5px black;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: clamp(8px, 5vw, 1.2rem);
+    background-color: rgb(102, 99, 99);
+    color: white;
+    font-weight: bold;
+    box-shadow: -4px 4px 1.5px black;
+}
+
+.button:active{
+    box-shadow: inset -4px 4px 0 #222;
+    
+    font-size: 0.9rem;
+}
+
+.mutado{
+    
+    position: absolute;
+    left: 97.5%;
+    margin-top:10px;
+    
+}
+    
+.mutado:hover{
+    cursor: pointer;
+    }
+
+.desmutado{
+    display: none;
+    position: absolute;
+    left: 97.5%;
+    margin-top:10px;
+    
+}
+    
+.desmutado:hover{
+    cursor: pointer;
+    }
+
+.teste{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
